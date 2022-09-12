@@ -1,0 +1,934 @@
+{
+  "xx": {},
+  "ar": {
+    "english": "Arabic",
+    "native": "العربية",
+    "api": "arabic",
+    "translations": {}
+  },
+  "bg": {
+    "english": "Bulgarian",
+    "native": "български език",
+    "api": "bulgarian",
+    "translations": {}
+  },
+  "zh-CN": {
+    "english": "Chinese",
+    "native": "简体中文",
+    "api": "schinese",
+    "translations": {
+      "0": {
+        "name": "Game Killer",
+        "description": "Halts XP gain. XP gems turn into exploding projectiles. All Treasures contain at least 3 items."
+      },
+      "1": {
+        "name": "I - Gemini",
+        "description": "Listed weapons come with a counterpart."
+      },
+      "2": {
+        "name": "II - Twilight Requiem",
+        "description": "Listed weapon projectiles generate explosions when they expire."
+      },
+      "3": {
+        "name": "III - Tragic Princess",
+        "description": "The cooldown of the listed weapons reduces when moving."
+      },
+      "4": {
+        "name": "IV - 觉醒",
+        "description": "提供3次复活机会。 复活时， 最大生命值+10%， 防御+1， 攻击范围、 持续时间和速度+5%。"
+      },
+      "5": {
+        "name": "V - 充满混乱的黑夜",
+        "description": "每 10 秒随机改变弹道速度 -50% 至 +200%"
+      },
+      "6": {
+        "name": "VI - 治疗之萨拉",
+        "description": "治疗加倍。 恢复HP会对附近的敌人造成相同数量的伤害。"
+      },
+      "7": {
+        "name": "VII - 铁蓝意志",
+        "description": "当列表中武器射弹最多可反弹 3 次, 并可能穿过敌人和墙壁。"
+      },
+      "8": {
+        "name": "VIII - Mad Groove",
+        "description": "Every 2 minutes attracts all standard stage items, pickups, and light sources towards the character."
+      },
+      "9": {
+        "name": "IX - Divine Bloodline",
+        "description": "Armor also affects listed weapons' damage and reflects enemy damage. Character gains bonus damage depending on missing Health. Defeating enemies with retaliatory damage gives +0.5 Max Health."
+      },
+      "10": {
+        "name": "X - Beginning",
+        "description": "Listed weapons get +1 Amount. The character's main weapon and its evolution gain +3 Amount instead."
+      },
+      "11": {
+        "name": "XI - 珍珠圆舞曲"
+      },
+      "12": {
+        "name": "XII - Out of Bounds",
+        "description": "Freezing enemies generates explosions. Orologions are easier to find."
+      },
+      "13": {
+        "name": "XIII - Wicked Season",
+        "description": "Overall Growth, Luck, Greed, and Curse are doubled at fixed intervals. The characters starts gaining +1% Growth, Luck, Greed, and Curse every 2 levels."
+      },
+      "14": {
+        "name": "XIV - Jail of Crystal",
+        "description": "Listed weapon projectiles have a chance to freeze enemies."
+      },
+      "15": {
+        "name": "XV - Disco of Gold",
+        "description": "Picking up coin bags from the floor triggers Gold Fever. Obtaining gold restores as many HP."
+      },
+      "16": {
+        "name": "XVI - 切",
+        "description": "增加列表中武器的暴击几率并造成双倍暴击伤害。"
+      },
+      "17": {
+        "name": "XVII - 丢失的图片",
+        "description": "持续时间每 10 秒随机变化 -50% 至 +200%"
+      },
+      "18": {
+        "name": "XVIII - Boogaloo of Illusions",
+        "description": "Overall Area continuously changes between -25% and +50% over 10 seconds."
+      },
+      "19": {
+        "name": "XIX - 火之心",
+        "description": "当列表中武器的射弹碰撞时, 它会爆炸并造成伤害。 当角色受到伤害时, 它会爆炸并造成伤害。"
+      },
+      "20": {
+        "name": "XX - Silent Old Sanctuary",
+        "description": "Gives +3 Reroll, Skip, and Banish. Gives +20% Might and -8% Cooldown for each active weapon slot left empty."
+      }
+    }
+  },
+  "zh-TW": {
+    "english": "Chinese (Traditional)",
+    "native": "繁體中文 90%",
+    "api": "tchinese",
+    "translations": {}
+  },
+  "cs": {
+    "english": "Czech",
+    "native": "čeština",
+    "api": "czech",
+    "translations": {}
+  },
+  "da": {
+    "english": "Danish",
+    "native": "Dansk",
+    "api": "danish",
+    "translations": {}
+  },
+  "nl": {
+    "english": "Dutch",
+    "native": "Nederlands",
+    "api": "dutch",
+    "translations": {}
+  },
+  "en": {
+    "english": "English",
+    "native": "English",
+    "api": "english",
+    "translations": {
+      "0": {
+        "name": "Game Killer",
+        "description": "Halts XP gain. XP gems turn into exploding projectiles. All Treasures contain at least 3 items."
+      },
+      "1": {
+        "name": "I - Gemini",
+        "description": "Listed weapons come with a counterpart."
+      },
+      "2": {
+        "name": "II - Twilight Requiem",
+        "description": "Listed weapon projectiles generate explosions when they expire."
+      },
+      "3": {
+        "name": "III - Tragic Princess",
+        "description": "The cooldown of the listed weapons reduces when moving."
+      },
+      "4": {
+        "name": "IV - Awake",
+        "description": "Gives +3 Revivals. Consuming a Revival gives +10% MaxHealth, +1 Armor, and +5% Might, Area, Duration, and Speed."
+      },
+      "5": {
+        "name": "V - Chaos in the Dark Night",
+        "description": "Overall projectile Speed continuously changes between -50% and +50% over 10 seconds. The character starts gaining +1% projectile Speed every level."
+      },
+      "6": {
+        "name": "VI - Sarabande of Healing",
+        "description": "Healing is doubled. Recovering HP damages nearby enemies for the same amount."
+      },
+      "7": {
+        "name": "VII - Iron Blue Will",
+        "description": "Listed weapon projectiles gain up to 3 bounces and might pass through enemies and walls."
+      },
+      "8": {
+        "name": "VIII - Mad Groove",
+        "description": "Every 2 minutes attracts all standard stage items, pickups, and light sources towards the character."
+      },
+      "9": {
+        "name": "IX - Divine Bloodline",
+        "description": "Armor also affects listed weapons' damage and reflects enemy damage. Character gains bonus damage depending on missing Health. Defeating enemies with retaliatory damage gives +0.5 Max Health."
+      },
+      "10": {
+        "name": "X - Beginning",
+        "description": "Listed weapons get +1 Amount. The character's main weapon and its evolution gain +3 Amount instead."
+      },
+      "11": {
+        "name": "XI - Waltz of Pearls"
+      },
+      "12": {
+        "name": "XII - Out of Bounds",
+        "description": "Freezing enemies generates explosions. Orologions are easier to find."
+      },
+      "13": {
+        "name": "XIII - Wicked Season",
+        "description": "Overall Growth, Luck, Greed, and Curse are doubled at fixed intervals. The characters starts gaining +1% Growth, Luck, Greed, and Curse every 2 levels."
+      },
+      "14": {
+        "name": "XIV - Jail of Crystal",
+        "description": "Listed weapon projectiles have a chance to freeze enemies."
+      },
+      "15": {
+        "name": "XV - Disco of Gold",
+        "description": "Picking up coin bags from the floor triggers Gold Fever. Obtaining gold restores as many HP."
+      },
+      "16": {
+        "name": "XVI - Slash",
+        "description": "Enables critical hits for listed weapons. Doubles overall critical damage."
+      },
+      "17": {
+        "name": "XVII - Lost & Found Painting",
+        "description": "Overall Duration continuously changes between -50% and +50% over 10 seconds.  The character starts gaining +1% Duration every level."
+      },
+      "18": {
+        "name": "XVIII - Boogaloo of Illusions",
+        "description": "Overall Area continuously changes between -25% and +25% over 10 seconds. The character starts gaining +1% Area every level."
+      },
+      "19": {
+        "name": "XIX - Heart of Fire",
+        "description": "Listed weapon projectiles explode on impact. Light sources explode. Character explodes when damaged."
+      },
+      "20": {
+        "name": "XX - Silent Old Sanctuary",
+        "description": "Gives +3 Reroll, Skip, and Banish. Gives +20% Might and -8% Cooldown for each active weapon slot left empty."
+      }
+    }
+  },
+  "fi": {
+    "english": "Finnish",
+    "native": "Suomi",
+    "api": "finnish",
+    "translations": {}
+  },
+  "fr": {
+    "english": "French",
+    "native": "Français",
+    "api": "french",
+    "translations": {
+      "0": {
+        "name": "Tricheur",
+        "description": "Stoppe le gain d'XP. Les gemmes d'XP deviennent des projectiles explosifs. Tous les Trésors contiennent au moins 3 objets."
+      },
+      "1": {
+        "name": "I - Gémeaux",
+        "description": "Une fois actives, les armes citées sont accompagnées d'une évolution unique."
+      },
+      "2": {
+        "name": "II - Requiem du Crépuscule",
+        "description": "Les projectiles des armes citées explosent lorsqu'ils arrivent à expiration."
+      },
+      "3": {
+        "name": "III - Drama Queen",
+        "description": "Le temps de recharge des armes citées est réduit lors que le personnage est en mouvement."
+      },
+      "4": {
+        "name": "IV - L'Éveil",
+        "description": "Donne +3 Résurrections. Utiliser une Résurrection donne +10% de Santé max, +1 d'Armure et +5% de Puissance, de Zone d'attaque, de Durée et de Célérité."
+      },
+      "5": {
+        "name": "V - Chaos dans la Nuit Noire",
+        "description": "La vitesse des projectiles varie continuellement entre -50% et +100% toutes les 10 secondes. Le personnage gagne 1% de Célérité à chaque niveau."
+      },
+      "6": {
+        "name": "VI - Danse de Guérison",
+        "description": "Les soins sont doublés. Le montant des PV régénérés inflige autant de dégâts aux ennemis proches."
+      },
+      "7": {
+        "name": "VII - Volonté de Fer",
+        "description": "Les projectiles des armes citées gagnent jusqu'à 3 rebonds et peuvent traverser les ennemis et les murs."
+      },
+      "8": {
+        "name": "VIII - Folie Furieuse",
+        "description": "Toutes les 2 minutes, tous les objets de base du niveau, les objets à récupérer et les sources de lumière sont attirés autour du personnage."
+      },
+      "9": {
+        "name": "IX - Lignée Divine",
+        "description": "L'Armure a une incidence sur les dégâts des armes citées et renvoie les dégâts des ennemis. Le personnage gagne un bonus de dégâts en fonction de la vie manquante. Vaincre des ennemis par riposte rapport +0.5 de Santé max."
+      },
+      "10": {
+        "name": "X - Le Commencement",
+        "description": "Les armes citées gagnent +1 en Quantité, et +3 s'il s'agit de l'arme principale du personnage."
+      },
+      "11": {
+        "name": "XI - Valse des Perles"	
+		
+      },
+      "12": {
+        "name": "XII - Hors-Limites",
+        "description": "Geler les ennemis génère des explosions. Les horeligions sont plus faciles à trouver."
+      },
+      "13": {
+        "name": "XIII - Mauvaise Saison",
+        "description": "La Puissance, la Chance, l'Avidité et la Malédiction sont doublées à intervales réguiliers. Le personnage gagne 1% de Puissance, de Chance, d'Avitié et de Malédiction tous les 2 niveaux."
+      },
+      "14": {
+        "name": "XIV - Prison de Cristal",
+        "description": "Les projectiles des armes citées ont une chance de geler les ennemis."
+      },
+      "15": {
+        "name": "XV - Ruée vers l'Or",
+        "description": "Récupérer des sacs de pièces au sol déclenche une Ruée vers l'Or. La quantité d'or récupérée restaure autant de PV."
+      },
+      "16": {
+        "name": "XVI - Taillé au Couteau",
+        "description": "Active les dégâts critiques des armes citées. Double tous les dégâts critiques."
+      },
+      "17": {
+        "name": "XVII - Objets Trouvés",
+        "description": "La Durée varie continuellement entre -50% et +200% toutes les 10 secondes."
+      },
+      "18": {
+        "name": "XVIII - Juste une Illusion",
+        "description": "La zone d'attaque varie continuellement entre -25% et +25% toutes les 10 secondes. Le personnage gagne 1% de zone d'attaque à chaque niveau."
+      },
+      "19": {
+        "name": "XIX - Coeur de Feu",
+        "description": "Les projectiles des armes citées explosent à l'impact. Les sources de lumières explosent. Le personnage créé des explosions lorsqu'il subit des dégâts."
+      },
+      "20": {
+        "name": "XX - Sanctuaire du Silence",
+        "description": "Donne +3 Relancer, Passer et Bannir. Donne +20% de Puissance et -8% de Temps de recharge pour chaque emplacement d'arme active laissé vide."
+      }
+    }
+  },
+  "de": {
+    "english": "German",
+    "native": "Deutsch 80%",
+    "api": "german",
+    "translations": {
+      "0": {
+        "name": "Game Killer",
+        "description": "Halts XP gain. XP gems turn into exploding projectiles. All Treasures contain at least 3 items."
+      },
+      "1": {
+        "name": "I - Gemini",
+        "description": "Listed weapons come with a counterpart."
+      },
+      "2": {
+        "name": "II - Twilight Requiem",
+        "description": "Listed weapon projectiles generate explosions when they expire."
+      },
+      "3": {
+        "name": "III - Tragic Princess",
+        "description": "The cooldown of the listed weapons reduces when moving."
+      },
+      "4": {
+        "name": "IV - Awake",
+        "description": "Gives +3 Revivals. Consuming a Revival gives +10% MaxHealth, +1 Armor, and +5% Might, Area, Duration, and Speed."
+      },
+      "5": {
+        "name": "V - Chaos in the Dark Night",
+        "description": "Overall projectile Speed continuously changes between -50% and +100% over 10 seconds. The character starts gaining +1% projectile Speed every level."
+      },
+      "6": {
+        "name": "VI - Sarabande of Healing",
+        "description": "Healing is doubled. Recovering HP damages nearby enemies for the same amount."
+      },
+      "7": {
+        "name": "VII - Iron Blue Will",
+        "description": "Listed weapon projectiles gain up to 3 bounces and might pass through enemies and walls."
+      },
+      "8": {
+        "name": "VIII - Mad Groove",
+        "description": "Every 2 minutes attracts all standard stage items, pickups, and light sources towards the character."
+      },
+      "9": {
+        "name": "IX - Divine Bloodline",
+        "description": "Armor also affects listed weapons' damage and reflects enemy damage. Character gains bonus damage depending on missing Health. Defeating enemies with retaliatory damage gives +0.5 Max Health."
+      },
+      "10": {
+        "name": "X - Beginning",
+        "description": "Listed weapons get +1 Amount. The character's main weapon and its evolution gain +3 Amount instead."
+      },
+      "11": {
+        "name": "XI - Waltz of Pearls"
+      },
+      "12": {
+        "name": "XII - Out of Bounds",
+        "description": "Freezing enemies generates explosions. Orologions are easier to find."
+      },
+      "13": {
+        "name": "XIII - Wicked Season",
+        "description": "Overall Growth, Luck, Greed, and Curse are doubled at fixed intervals. The characters starts gaining +1% Growth, Luck, Greed, and Curse every 2 levels."
+      },
+      "14": {
+        "name": "XIV - Jail of Crystal",
+        "description": "Listed weapon projectiles have a chance to freeze enemies."
+      },
+      "15": {
+        "name": "XV - Disco of Gold",
+        "description": "Picking up coin bags from the floor triggers Gold Fever. Obtaining gold restores as many HP."
+      },
+      "16": {
+        "name": "XVI - Slash",
+        "description": "Enables critical hits for listed weapons. Doubles overall critical damage."
+      },
+      "17": {
+        "name": "XVII - Lost & Found Painting",
+        "description": "Overall Duration continuously changes between -50% and +200% over 10 seconds."
+      },
+      "18": {
+        "name": "XVIII - Boogaloo of Illusions",
+        "description": "Overall Area continuously changes between -25% and +25% over 10 seconds. The character starts gaining +1% Area every level."
+      },
+      "19": {
+        "name": "XIX - Heart of Fire",
+        "description": "Listed weapon projectiles explode on impact. Light sources explode. Character explodes when damaged."
+      },
+      "20": {
+        "name": "XX - Silent Old Sanctuary",
+        "description": "Gives +3 Reroll, Skip, and Banish. Gives +20% Might and -8% Cooldown for each active weapon slot left empty."
+      }
+    }
+  },
+  "el": {
+    "english": "Greek",
+    "native": "Ελληνικά",
+    "api": "greek",
+    "translations": {}
+  },
+  "hu": {
+    "english": "Hungarian",
+    "native": "Magyar",
+    "api": "hungarian",
+    "translations": {}
+  },
+  "it": {
+    "english": "Italian",
+    "native": "Italiano",
+    "api": "italian",
+    "translations": {}
+  },
+  "ja": {
+    "english": "Japanese",
+    "native": "日本語 90%",
+    "api": "japanese",
+    "translations": {
+      "0": {
+        "name": "Game Killer",
+        "description": "Halts XP gain. XP gems turn into exploding projectiles. All Treasures contain at least 3 items."
+      },
+      "1": {
+        "name": "I - Gemini",
+        "description": "Listed weapons come with a counterpart."
+      },
+      "2": {
+        "name": "II - Twilight Requiem",
+        "description": "Listed weapon projectiles generate explosions when they expire."
+      },
+      "3": {
+        "name": "III - Tragic Princess",
+        "description": "The cooldown of the listed weapons reduces when moving."
+      },
+      "4": {
+        "name": "IV - 覚醒",
+        "description": "復活回数が+3される。復活すると、最大体力+10%、\nアーマー+1、威力、範囲、持続時間、速度+5%"
+      },
+      "5": {
+        "name": "V - 暗黒の夜の混沌",
+        "description": "10秒間、すべての投射物の速度が-50%から+200%\nの間で連続的に変化する"
+      },
+      "6": {
+        "name": "VI - 癒しのサラバンド",
+        "description": "回復量が2倍になる。HP回復時に周囲の敵に同量の\nダメージを与える"
+      },
+      "7": {
+        "name": "VII - 鉄の青い意志",
+        "description": "武器の弾が最大3回跳ね返り、 敵や壁を通過することがある。"
+      },
+      "8": {
+        "name": "VIII - マッド・グルーヴ",
+        "description": "2分ごとに標準的なステージアイテム、 ピックアップ、 光源をすべてキャラクターに向かって引き寄せる。"
+      },
+      "9": {
+        "name": "IX - Divine Bloodline",
+        "description": "Armor also affects listed weapons' damage and reflects enemy damage. Character gains bonus damage depending on missing Health. Defeating enemies with retaliatory damage gives +0.5 Max Health."
+      },
+      "10": {
+        "name": "X - ビギニング",
+        "description": "リストされた武器は+1を得る。 キャラクターのメイン武器とその進化は代わりに+3される。"
+      },
+      "11": {
+        "name": "XI - 真珠のワルツ"
+      },
+      "12": {
+        "name": "XII - アウト・オブ・バウンズ",
+        "description": "敵を凍らせると爆発が発生します。  懐中時計が出やすくなる。"
+      },
+      "13": {
+        "name": "XIII - Wicked Season",
+        "description": "Overall Growth, Luck, Greed, and Curse are doubled at fixed intervals. The characters starts gaining +1% Growth, Luck, Greed, and Curse every 2 levels."
+      },
+      "14": {
+        "name": "XIV - クリスタルの牢獄",
+        "description": "リストされた武器の弾丸は敵を凍らせるチャンスがある。"
+      },
+      "15": {
+        "name": "XV - ゴールド・ディスコ",
+        "description": "床に落ちているコイン袋を拾うとゴールドフィーバーが発生する.  ゴールドを手に入れるとHPがいくらでも回復する."
+      },
+      "16": {
+        "name": "XVI - スラッシュ",
+        "description": "リストアップされた武器のクリティカルヒットを\n有効にする。全体のクリティカルダメージが2倍になる。"
+      },
+      "17": {
+        "name": "XVII - 遺失物の絵画",
+        "description": "10秒間、すべての持続時間が-50%から+200%の間\nで連続的に変化する。"
+      },
+      "18": {
+        "name": "XVIII - 幻想のブーガルー",
+        "description": "10秒間, 全体面積が-25%〜+50%で変化し続ける."
+      },
+      "19": {
+        "name": "XIX - ハート・オブ・ファイア",
+        "description": "リストアップされた武器の弾丸が着弾時に爆発する。\n光源が爆発する。 キャラクターがダメージを受け\nると爆発する。"
+      },
+      "20": {
+        "name": "XX - Silent Old Sanctuary",
+        "description": "Gives +3 Reroll, Skip, and Banish. Gives +20% Might and -8% Cooldown for each active weapon slot left empty."
+      }
+    }
+  },
+  "ko": {
+    "english": "Korean",
+    "native": "한국어",
+    "api": "koreana",
+    "translations": {
+      "0": {
+        "name": "게임 킬러",
+        "description": "떨어지는 모든 경험치 보석을 폭발하는 발사체로 바꿉니다. 모든 보물 상자에는 최소 3개의 아이템을 보장합니다."
+      },
+      "1": {
+        "name": "I - 쌍둥이자리",
+        "description": "목록에 있는 무기가 한 쌍으로 복제 됩니다."
+      },
+      "2": {
+        "name": "II - 황혼의 진혼곡",
+        "description": "목록에 있는 무기의 투사체가 사라질때 주위에 폭파 대미지를 줍니다."
+      },
+      "3": {
+        "name": "III - 공주의 비련",
+        "description": "목록에 있는 무기의 쿨타임이 이동시 대폭 감소합니다."
+      },
+      "4": {
+        "name": "IV - 각성",
+        "description": "3번의 부활 기회를 제공 합니다. 부활시 최대 체력 +10%, 방어력+1, 공격범위, 지속시간 및 속도+5% 증가합니다."
+      },
+      "5": {
+        "name": "V - 혼돈이 가득한 어두운밤",
+        "description": "전체 발사체 속도를 10초 동안 -50%에서 +50% 사이에서 지속적으로 변경. 캐릭터 레벨마다 투사체 속도가 1% 증가하기 시작합니다."
+      },
+      "6": {
+        "name": "VI - 치유의 사라반드",
+        "description": "회복량 2배 증가. HP를 회복하면 주변 적에게도 같은 양의 피해를 줍니다."
+      },
+      "7": {
+        "name": "VII - 푸른 강철의 의지",
+        "description": "목록에 있는 무기의 발사체는 최대 3회 튕기며 적과 벽을 관통하여 공격합니다."
+      },
+      "8": {
+        "name": "VIII - 광기의 그루브",
+        "description": "2분마다 모든 스테이지의 드롭아이템.화로를 캐틱터 주변으로 끌어옵니다."
+      },
+      "9": {
+        "name": "IX - 신성한 혈통",
+        "description": "갑옷과 목록에 있는 무기의 피해에 영향을 미치고 적의 피해를 반영합니다. 캐릭터는 잃은 체력에 따라 추가 피해를 얻습니다. 반사 데미지 로 적을 물리치면 최대 체력이 +0.5 증가합니다."
+      },
+      "10": {
+        "name": "X - 근원",
+        "description": "목록에 있는 무기의 투사체 수 +1 증가. 기본 무기와 그 진화 무기는 투사체수 +3 증가."
+      },
+      "11": {
+        "name": "XI - 진주의 왈츠"
+      },
+      "12": {
+        "name": "XII - 한도초과",
+        "description": "적을 얼리면 그 주위의 적에게 얼음 파편으로 범위 피해를 줍니다, 회중시계를 더욱 쉽게 발견할 수 있습니다."
+      },
+      "13": {
+        "name": "XIII - 사악한 계절",
+        "description": "성장, 행운, 탐욕, 저주가 일정 간격으로 2배가 됩니다. 캐릭터는 2레벨마다 성장, 행운, 탐욕, 저주가 1%씩 증가합니다."
+      },
+      "14": {
+        "name": "XIV - 수정 감옥",
+        "description": "목록에 있는 무기의 발사체는 일정확률로 적을 얼립니다."
+      },
+      "15": {
+        "name": "XV - 황금 디스코",
+        "description": "금화 주머니 습득시 황금의 피버타임을 가집니다. 획득한 금화만큼 HP를 회복합니다."
+      },
+      "16": {
+        "name": "XVI - 절단",
+        "description": "목록에 있는 무기의 치명타 확률을 상승시키며 2배의 크리티컬 데미지를 줍니다."
+      },
+      "17": {
+        "name": "XVII - 잃어버린 그림",
+        "description": "전체 지속 시간을 10초 동안 -50%에서 +50% 사이에서 지속적으로 변경. 캐릭터 레벨마다 지속 시간이 1% 증가하기 시작합니다."
+      },
+      "18": {
+        "name": "XVIII - 환상의 춤",
+        "description": "공격범위가 10초 동안 -25%에서 +25% 사이에서 지속적으로 변경. 캐릭터 레벨마다 면적이 1% 증가하기 시작합니다."
+      },
+      "19": {
+        "name": "XIX - 불의 심장",
+        "description": "목록에 있는 무기의 투사체는 충돌시 폭발하며 대미지를 줍니다. 캐릭터가 피해를 입으면 주위에 폭파 대미지를 줍니다."
+      },
+      "20": {
+        "name": "XX - 고요한 옛 성역",
+        "description": "새로고침,건너뛰기,지우기 3회 증가, 빈 무기 슬롯마다 피해량+20%,쿨타임-8% 버프 획득"
+      }
+    }
+  },
+  "no": {
+    "english": "Norwegian",
+    "native": "Norsk",
+    "api": "norwegian",
+    "translations": {}
+  },
+  "pl": {
+    "english": "Polish",
+    "native": "Polski",
+    "api": "polish",
+    "translations": {}
+  },
+  "pt": {
+    "english": "Portuguese",
+    "native": "Português",
+    "api": "portuguese",
+    "translations": {}
+  },
+  "pt-BR": {
+    "english": "Portuguese-Brazil",
+    "native": "Português-Brasil",
+    "api": "brazilian",
+    "translations": {
+      "0": {
+        "name": "Game Killer",
+        "description": "Halts XP gain. XP gems turn into exploding projectiles. All Treasures contain at least 3 items."
+      },
+      "1": {
+        "name": "I - Gemini",
+        "description": "Listed weapons come with a counterpart."
+      },
+      "2": {
+        "name": "II - Twilight Requiem",
+        "description": "Listed weapon projectiles generate explosions when they expire."
+      },
+      "3": {
+        "name": "III - Tragic Princess",
+        "description": "The cooldown of the listed weapons reduces when moving."
+      },
+      "4": {
+        "name": "IV - Despertar",
+        "description": "Ganha +3 Revives. Consumir um Revive concede +10% HP Máximo, +1 de armadura e 5% de Poder, Área, Duração e Velocidade."
+      },
+      "5": {
+        "name": "V - Caos na Noite Negra",
+        "description": "Velocidade dos Projéteis troca continuamente entre -50% e +200% durante 10 segundos."
+      },
+      "6": {
+        "name": "VI - Serenata de Cura",
+        "description": "Cura é dobrada. Recuperar HP causa dano a inimigos próximos com a mesma quantidade."
+      },
+      "7": {
+        "name": "VII - Perseverança Azul",
+        "description": "Projéteis das armas listadas ganham até 3 ricocheteamentos e podem atravessar inimigos e paredes."
+      },
+      "8": {
+        "name": "VIII - Mad Groove",
+        "description": "Every 2 minutes attracts all standard stage items, pickups, and light sources towards the character."
+      },
+      "9": {
+        "name": "IX - Divine Bloodline",
+        "description": "Armor also affects listed weapons' damage and reflects enemy damage. Character gains bonus damage depending on missing Health. Defeating enemies with retaliatory damage gives +0.5 Max Health."
+      },
+      "10": {
+        "name": "X - Beginning",
+        "description": "Listed weapons get +1 Amount. The character's main weapon and its evolution gain +3 Amount instead."
+      },
+      "11": {
+        "name": "XI - Valsa das Pérolas"
+      },
+      "12": {
+        "name": "XII - Out of Bounds",
+        "description": "Freezing enemies generates explosions. Orologions are easier to find."
+      },
+      "13": {
+        "name": "XIII - Wicked Season",
+        "description": "Overall Growth, Luck, Greed, and Curse are doubled at fixed intervals. The characters starts gaining +1% Growth, Luck, Greed, and Curse every 2 levels."
+      },
+      "14": {
+        "name": "XIV - Jail of Crystal",
+        "description": "Listed weapon projectiles have a chance to freeze enemies."
+      },
+      "15": {
+        "name": "XV - Disco of Gold",
+        "description": "Picking up coin bags from the floor triggers Gold Fever. Obtaining gold restores as many HP."
+      },
+      "16": {
+        "name": "XVI - Corte",
+        "description": "Ativa ataques críticos para as armas listadas. Dobra o dano crítico geral"
+      },
+      "17": {
+        "name": "XVII - Pintura de Achados & Perdidos",
+        "description": "Duração alterna continuamente entre -50% e +200% durante 10 segundos"
+      },
+      "18": {
+        "name": "XVIII - Boogaloo of Illusions",
+        "description": "Overall Area continuously changes between -25% and +50% over 10 seconds."
+      },
+      "19": {
+        "name": "XIX - Coração de Fogo",
+        "description": "Projéteis das armas listadas explodem no impacto. Luzes explodem. Personagem explode quando leva dano."
+      },
+      "20": {
+        "name": "XX - Silent Old Sanctuary",
+        "description": "Gives +3 Reroll, Skip, and Banish. Gives +20% Might and -8% Cooldown for each active weapon slot left empty."
+      }
+    }
+  },
+  "ro": {
+    "english": "Romanian",
+    "native": "Română",
+    "api": "romanian",
+    "translations": {}
+  },
+  "ru": {
+    "english": "Russian",
+    "native": "Русский",
+    "api": "russian",
+    "translations": {
+      "0": {
+        "name": "Убийца Игры",
+        "description": "Останавливает прирост опыта. Самоцветы опыта превращаются во взрывающиеся снаряды. Все Сокровища содержат не менее 3-х предметов."
+      },
+      "1": {
+        "name": "I - Близнецы",
+        "description": "Перечисленное оружие выдаётся в двух экземплярах."
+      },
+      "2": {
+        "name": "II - Сумеречный Реквием",
+        "description": "Снаряды перечисленные оружия взрываются в момент их исчезновения."
+      },
+      "3": {
+        "name": "III - Трагическая принцесса",
+        "description": "Время отката перечисленного оружия уменьшается при перемещении."
+      },
+      "4": {
+        "name": "IV - Пробуждение",
+        "description": "Дает +3 Оживления. Использование Оживления дает +10% к Макс. ОЗ, +1 к Броне, и +5% к Силе, Размеру, Сроку и Подвижности."
+      },
+      "5": {
+        "name": "V - Хаос в Тёмной Ночи",
+        "description": "Общая Скорость снаряда непрерывно меняется от -50% до +50% в течение 10 секунд. Персонаж начинает набирать по 1% к Скорости снаряда с каждым уровнем."
+      },
+      "6": {
+        "name": "VI - Сарабанда Исцеления",
+        "description": "Исцеление удваивается. Восстановление ОЗ наносит урон ближайшим врагам на ту же сумму."
+      },
+      "7": {
+        "name": "VII - Железная Голубая Воля",
+        "description": "Снаряды перечисленного оружия получают до 3 отскоков и могут проходить сквозь врагов и стены."
+      },
+      "8": {
+        "name": "VIII - Безумный Паз",
+        "description": "Каждые 2 минуты притягивает все стандартные предметы этапа, подбираемые предметы и источники света к персонажу."
+      },
+      "9": {
+        "name": "IX - Божественная Родословная",
+        "description": "Броня влияет на урон от перечисленного оружия и отражает урон врагов. Персонаж получает доп. урон в зависимости от недостающего Здоровья. Враги поражение ответным уроном дают +0,5 к Макс.ОЗ."
+      },
+      "10": {
+        "name": "X - Начало",
+        "description": "Перечисленное оружие получает +1 к Количеству. Основное оружие персонажа и его улучшенная версия получают +3 к Количеству."
+      },
+      "11": {
+        "name": "XI - Вальс Жемчужин"
+      },
+      "12": {
+        "name": "XII - За Пределами",
+        "description": "Замораживание врагов порождает взрывы. Часослов легче найти."
+      },
+      "13": {
+        "name": "XIII - Плохой Сезон",
+        "description": "Общий Прирост, Удача, Жадность и Проклятье удваиваются через определённое время. Персонаж начинает получать +1% к Приосту, Удаче, Жадности и Проклятью каждые 2 уровня."
+      },
+      "14": {
+        "name": "XIV - Кристальная Темница",
+        "description": "Снаряды перечисленного оружия имеют шанс заморозить врагов."
+      },
+      "15": {
+        "name": "XV - Золотая Дискотека",
+        "description": "Подбирание мешков с монетами с пола вызывает Золотую Лихорадку. За каждое полученное золото восстанавливается ОЗ."
+      },
+      "16": {
+        "name": "XVI - Порез",
+        "description": "Позволяет наносить критические удары для перечисленного оружия. Удваивает весь критический урон."
+      },
+      "17": {
+        "name": "XVII - Потерянная и Найденная Картина",
+        "description": "Общий Срок непрерывно меняется от -50% до +50% в течение 10 секунд. Персонаж начинает набирать по 1% к Сроку с каждым уровнем."
+      },
+      "18": {
+        "name": "XVIII - Бугалу Иллюзий",
+        "description": "Общий Размер непрерывно меняется от -25% до +25% в течение 10 секунд. Персонаж начинает набирать по 1% к Размеру с каждым уровнем."
+      },
+      "19": {
+        "name": "XIX - Сердце Огня",
+        "description": "Снаряды перечисленного оружия взрываются при столкновении. Источники света взрываются. Персонаж взрывается при получении урона."
+      },
+      "20": {
+        "name": "XX - Тихое Старое Святилище",
+        "description": "Даёт +3 к Повтору, Пропуску и Исключению. Даёт +20% Силы и -8% Отката за каждый активный слот оружия, оставшийся пустым."
+      }
+    }
+  },
+  "es": {
+    "english": "Spanish",
+    "native": "Español 80%",
+    "api": "spanish",
+    "translations": {
+      "0": {
+        "name": "Game Killer",
+        "description": "Halts XP gain. XP gems turn into exploding projectiles. All Treasures contain at least 3 items."
+      },
+      "1": {
+        "name": "I - Gemini",
+        "description": "Listed weapons come with a counterpart."
+      },
+      "2": {
+        "name": "II - Twilight Requiem",
+        "description": "Listed weapon projectiles generate explosions when they expire."
+      },
+      "3": {
+        "name": "III - Tragic Princess",
+        "description": "The cooldown of the listed weapons reduces when moving."
+      },
+      "4": {
+        "name": "IV - Awake",
+        "description": "Gives +3 Revivals. Consuming a Revival gives +10% MaxHealth, +1 Armor, and +5% Might, Area, Duration, and Speed."
+      },
+      "5": {
+        "name": "V - Chaos in the Dark Night",
+        "description": "Overall projectile Speed continuously changes between -50% and +100% over 10 seconds. The character starts gaining +1% projectile Speed every level."
+      },
+      "6": {
+        "name": "VI - Sarabande of Healing",
+        "description": "Healing is doubled. Recovering HP damages nearby enemies for the same amount."
+      },
+      "7": {
+        "name": "VII - Iron Blue Will",
+        "description": "Listed weapon projectiles gain up to 3 bounces and might pass through enemies and walls."
+      },
+      "8": {
+        "name": "VIII - Mad Groove",
+        "description": "Every 2 minutes attracts all standard stage items, pickups, and light sources towards the character."
+      },
+      "9": {
+        "name": "IX - Divine Bloodline",
+        "description": "Armor also affects listed weapons' damage and reflects enemy damage. Character gains bonus damage depending on missing Health. Defeating enemies with retaliatory damage gives +0.5 Max Health."
+      },
+      "10": {
+        "name": "X - Beginning",
+        "description": "Listed weapons get +1 Amount. The character's main weapon and its evolution gain +3 Amount instead."
+      },
+      "11": {
+        "name": "XI - Waltz of Pearls"
+      },
+      "12": {
+        "name": "XII - Out of Bounds",
+        "description": "Freezing enemies generates explosions. Orologions are easier to find."
+      },
+      "13": {
+        "name": "XIII - Wicked Season",
+        "description": "Overall Growth, Luck, Greed, and Curse are doubled at fixed intervals. The characters starts gaining +1% Growth, Luck, Greed, and Curse every 2 levels."
+      },
+      "14": {
+        "name": "XIV - Jail of Crystal",
+        "description": "Listed weapon projectiles have a chance to freeze enemies."
+      },
+      "15": {
+        "name": "XV - Disco of Gold",
+        "description": "Picking up coin bags from the floor triggers Gold Fever. Obtaining gold restores as many HP."
+      },
+      "16": {
+        "name": "XVI - Slash",
+        "description": "Enables critical hits for listed weapons. Doubles overall critical damage."
+      },
+      "17": {
+        "name": "XVII - Lost & Found Painting",
+        "description": "Overall Duration continuously changes between -50% and +100% over 10 seconds.  The character starts gaining +1% Duration every level."
+      },
+      "18": {
+        "name": "XVIII - Boogaloo of Illusions",
+        "description": "Overall Area continuously changes between -25% and +25% over 10 seconds. The character starts gaining +1% Area every level."
+      },
+      "19": {
+        "name": "XIX - Heart of Fire",
+        "description": "Listed weapon projectiles explode on impact. Light sources explode. Character explodes when damaged."
+      },
+      "20": {
+        "name": "XX - Silent Old Sanctuary",
+        "description": "Gives +3 Reroll, Skip, and Banish. Gives +20% Might and -8% Cooldown for each active weapon slot left empty."
+      }
+    }
+  },
+  "es-419": {
+    "english": "Spanish-Latin America",
+    "native": "Español-Latinoamérica",
+    "api": "latam",
+    "translations": {}
+  },
+  "sv": {
+    "english": "Swedish",
+    "native": "Svenska",
+    "api": "swedish",
+    "translations": {}
+  },
+  "th": {
+    "english": "Thai",
+    "native": "ไทย",
+    "api": "thai",
+    "translations": {}
+  },
+  "tr": {
+    "english": "Turkish",
+    "native": "Türkçe",
+    "api": "turkish",
+    "translations": {}
+  },
+  "uk": {
+    "english": "Ukrainian",
+    "native": "Українська",
+    "api": "ukrainian",
+    "translations": {}
+  },
+  "vn": {
+    "english": "Vietnamese",
+    "native": "Tiếng Việt",
+    "api": "vietnamese",
+    "translations": {}
+  }
+}
