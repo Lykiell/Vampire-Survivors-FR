@@ -323,7 +323,7 @@
       },
       "COINBAGMAX": {
         "description": "Ajoute 100 à votre total de pièces d'or.",
-        "name": "Mega Sac d'Or",
+        "name": "Méga Sac d'Or",
         "tips": "Taux d'apparition affecté par la Chance."
       },
       "GEM": {
