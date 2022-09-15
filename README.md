@@ -3,7 +3,7 @@ __Traduction française du jeu.__
 Certaines lignes ne sont pas traduites car non trouvables dans les fichiers .json du dossier /lang.  
 (... Mais je cherche... ;D )  
   
-Fonctionne jusqu'à la version 0.11.2.  
+Fonctionne jusqu'à la version 0.11.3.  
 Traduction non-officielle et personnelle.  
 (Non-affilié ni partenaire des créateurs)      
   
